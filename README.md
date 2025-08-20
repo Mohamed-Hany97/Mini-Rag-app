@@ -37,6 +37,11 @@ $ cp .env.example .env
 
 Set your environment variables in the `.env` file, like `OPEN_API_KEY` value.
 
+### To run the api 
+```bash 
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
+
 
 
 
